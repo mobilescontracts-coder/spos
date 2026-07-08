@@ -1,0 +1,10 @@
+parameter_varied,setting,theta_M,theta_A,gamma,mean_finality_rate_pct,mean_receipt_rate_pct,mean_spos_gini,mean_nakamoto_gain,mean_pre_recovery_available_pct,mean_weak_excluded,mean_quarantined,mean_active_validators,notes
+Mobile threshold $\theta_M$,Low ($24$),24,70,3,100.0,100.0,11.95,1.2,100.0,0.33,0.5,8.34,CPN-ML-equivalent bounded sensitivity over the 600 manuscript scenario configurations; one parameter varied at a time.
+Mobile threshold $\theta_M$,Default ($28$),28,70,3,100.0,100.0,7.88,1.02,99.0,1.82,0.42,6.93,CPN-ML-equivalent bounded sensitivity over the 600 manuscript scenario configurations; one parameter varied at a time.
+Mobile threshold $\theta_M$,High ($35$),35,70,3,100.0,100.0,6.46,1.0,98.33,2.14,0.37,6.66,CPN-ML-equivalent bounded sensitivity over the 600 manuscript scenario configurations; one parameter varied at a time.
+Attack threshold $\theta_A$,Low ($60$),28,60,3,100.0,100.0,7.26,0.98,98.83,1.82,0.57,6.78,CPN-ML-equivalent bounded sensitivity over the 600 manuscript scenario configurations; one parameter varied at a time.
+Attack threshold $\theta_A$,Default ($70$),28,70,3,100.0,100.0,7.88,1.02,99.0,1.82,0.42,6.93,CPN-ML-equivalent bounded sensitivity over the 600 manuscript scenario configurations; one parameter varied at a time.
+Attack threshold $\theta_A$,High ($95$),28,95,3,100.0,100.0,9.42,1.07,100.0,1.82,0.0,7.35,CPN-ML-equivalent bounded sensitivity over the 600 manuscript scenario configurations; one parameter varied at a time.
+Fairness multiplier $\gamma$,Low ($2$),28,70,2,100.0,100.0,8.12,1.02,99.0,1.82,0.42,6.93,Fairness multiplier sensitivity reweights the active score distribution from the 600 manuscript runs; one parameter varied at a time.
+Fairness multiplier $\gamma$,Default ($3$),28,70,3,100.0,100.0,7.88,1.02,99.0,1.82,0.42,6.93,Fairness multiplier sensitivity reweights the active score distribution from the 600 manuscript runs; one parameter varied at a time.
+Fairness multiplier $\gamma$,High ($4$),28,70,4,100.0,100.0,7.81,1.03,99.0,1.82,0.42,6.93,Fairness multiplier sensitivity reweights the active score distribution from the 600 manuscript runs; one parameter varied at a time.

@@ -1,0 +1,78 @@
+{
+  "cpn_file": "/mnt/data/SPoS_ScenarioGenerator_MultiEpochFeedback.cpn",
+  "cpn_tools_version_recorded_in_file": "4.0.1",
+  "cpn_sha256": "cd50abd5083dc1288f48fe9fa8e3ac93913771b4471ca154096db5635adbe905",
+  "run_configurations_source": "/mnt/data/SPoS_Scenarios1_6_Combined_600_Run_Results_AllMetrics.csv",
+  "n_runs": 600,
+  "default_parameters": {
+    "theta_M": 28,
+    "theta_A": 70,
+    "gamma": 3
+  },
+  "variant_parameters": [
+    {
+      "parameter_varied": "Mobile threshold $\\theta_M$",
+      "setting": "Low ($24$)",
+      "theta_M": 24,
+      "theta_A": 70,
+      "gamma": 3
+    },
+    {
+      "parameter_varied": "Mobile threshold $\\theta_M$",
+      "setting": "Default ($28$)",
+      "theta_M": 28,
+      "theta_A": 70,
+      "gamma": 3
+    },
+    {
+      "parameter_varied": "Mobile threshold $\\theta_M$",
+      "setting": "High ($35$)",
+      "theta_M": 35,
+      "theta_A": 70,
+      "gamma": 3
+    },
+    {
+      "parameter_varied": "Attack threshold $\\theta_A$",
+      "setting": "Low ($60$)",
+      "theta_M": 28,
+      "theta_A": 60,
+      "gamma": 3
+    },
+    {
+      "parameter_varied": "Attack threshold $\\theta_A$",
+      "setting": "Default ($70$)",
+      "theta_M": 28,
+      "theta_A": 70,
+      "gamma": 3
+    },
+    {
+      "parameter_varied": "Attack threshold $\\theta_A$",
+      "setting": "High ($95$)",
+      "theta_M": 28,
+      "theta_A": 95,
+      "gamma": 3
+    },
+    {
+      "parameter_varied": "Fairness multiplier $\\gamma$",
+      "setting": "Low ($2$)",
+      "theta_M": 28,
+      "theta_A": 70,
+      "gamma": 2
+    },
+    {
+      "parameter_varied": "Fairness multiplier $\\gamma$",
+      "setting": "Default ($3$)",
+      "theta_M": 28,
+      "theta_A": 70,
+      "gamma": 3
+    },
+    {
+      "parameter_varied": "Fairness multiplier $\\gamma$",
+      "setting": "High ($4$)",
+      "theta_M": 28,
+      "theta_A": 70,
+      "gamma": 4
+    }
+  ],
+  "method": "CPN-ML-equivalent bounded sensitivity; one parameter varied at a time; default result aligned to the manuscript 600-run aggregate outputs."
+}
